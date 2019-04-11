@@ -5,9 +5,10 @@ import com.kodilla.testing.calculator.Calculator;
 public class TestingMain {
     public static void main(String[] args) {
 
-        Calculator calculate = new Calculator(5,5);
-        int sumResult = calculate.add();
-        int substractResult = calculate.substract();
+        Calculator calculate = new Calculator();
+
+        int sumResult = calculate.add(5,5);
+        int substractResult = calculate.substract(5,5);
 
         if(sumResult == 10){
             System.out.println("Test OK");
