@@ -30,6 +30,7 @@ public class CollectionTestSuite {
         OddNumberExterminator normalList = new OddNumberExterminator();
         ArrayList<Integer>checked = normalList.exterminate(numbers);
         //assert
+        Assert.assertTrue(checked.size() == 4);
         for (Integer a: checked) {
             Assert.assertTrue(a%2 == 0);
         }
