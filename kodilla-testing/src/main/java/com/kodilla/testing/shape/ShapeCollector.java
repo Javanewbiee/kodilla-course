@@ -4,12 +4,8 @@ import java.util.*;
 
 public class ShapeCollector {
 
-    private Shape shape;
-    private ArrayList<Shape>collection = new ArrayList<Shape>();
 
-    public ShapeCollector(Shape shape) {
-        this.shape = shape;
-    }
+    private ArrayList<Shape>collection = new ArrayList<Shape>();
 
     public void addFigure(Shape shape){
         collection.add(shape);
