@@ -42,7 +42,7 @@ public class CalculatingStatisticsTestSuite {
         stat.calculateAdvStatistics(statisticsMock);
         double result = stat.getAverageNumberCommentPost();
         //Then
-        Assert.assertEquals(0.2, result, 0.2);
+        Assert.assertEquals(0.2, result, 0);
     }
     @Test
     public void testCalculateAdvStatisticsAverageCommentPostMoreCommentsThenPosts(){
@@ -80,7 +80,7 @@ public class CalculatingStatisticsTestSuite {
         stat.calculateAdvStatistics(statisticsMock);
         double result = stat.getAverageNumberPostUser();
         //Then
-        Assert.assertEquals(0.1, result, 0.1);
+        Assert.assertEquals(0.1, result, 0);
     }
     @Test
     public void testCalculateAdvStatisticsAveragePostUserMorePostsThenUsers(){

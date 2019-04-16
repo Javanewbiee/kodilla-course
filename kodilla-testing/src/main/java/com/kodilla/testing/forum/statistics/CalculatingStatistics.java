@@ -5,21 +5,24 @@ import java.util.List;
 
 public class CalculatingStatistics {
 
-    int usersNumber;
-    int numberOfPosts;
-    int numberOfComments;
     double averageNumberPostUser;
     double averageNumberCommentUser;
     double averageNumberCommentPost;
+    int usersNumber;
+    int numberOfPosts;
+    int numberOfComments;
 
     public void calculateAdvStatistics(Statistics statistics){
 
         usersNumber = statistics.usersNames().size();
         numberOfPosts = statistics.postsCount();
         numberOfComments = statistics.commentsCount();
-        averageNumberPostUser = numberOfPosts/usersNumber;
-        averageNumberCommentUser = numberOfComments/usersNumber;
-        averageNumberCommentPost = numberOfComments/numberOfPosts;
+        double userNumber= (double)usersNumber;
+        double numbersOfComments= (double)numberOfComments;
+        double numbersOfPosts= (double)numberOfPosts;
+        averageNumberPostUser = numbersOfPosts/userNumber;
+        averageNumberCommentUser = numbersOfComments/userNumber;
+        averageNumberCommentPost = numbersOfComments/numbersOfPosts;
 
     }
     public int getNumberOfUsers(){
