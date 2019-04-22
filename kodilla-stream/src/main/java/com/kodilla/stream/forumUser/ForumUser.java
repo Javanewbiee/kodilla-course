@@ -33,6 +33,13 @@ public final class ForumUser {
     public int getUserPosts() {
         return userPosts;
     }
+    public boolean ageCheck(){
+        if((LocalDate.now().getYear()-userBirthDate.getYear())>=20) {
+            return true;
+        }else {
+            return false;
+        }
+    }
 
     @Override
     public String toString() {
