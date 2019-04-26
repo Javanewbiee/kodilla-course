@@ -13,11 +13,11 @@ public class ArrayOperationsTestSuite{
     @Test
     public void testGetAverage(){
         //Given
-        int[]list = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20};
+        int []list = {1,22,23,4,25,6,27,28,9,10,11,12,13,14,15,16,17,18,19,20};
         //When
         OptionalDouble average = getAverage(list);
         //Then
-        OptionalDouble expected = OptionalDouble.of(10.5);
+        OptionalDouble expected = OptionalDouble.of(15.5);
         Assert.assertEquals(expected, average);
     }
 }
