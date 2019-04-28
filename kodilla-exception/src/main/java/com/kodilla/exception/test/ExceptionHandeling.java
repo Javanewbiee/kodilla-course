@@ -1,19 +1,19 @@
 package com.kodilla.exception.test;
 
-import com.kodilla.exception.test.SecondChallenge;
 
 public class ExceptionHandeling {
 
     public static void main(String args[]) {
 
-        SecondChallenge second = new SecondChallenge();
+    Flight flightOne = new Flight("JFK", "Balice");
+    FlightSearch searchOne = new FlightSearch();
 
-        try {
-            second.probablyIWillThrowException(2.0, 1.5);
-        } catch (Exception e) {
-            System.out.println("Bug " + e);
-        } finally {
-            System.out.println("All done");
+    try{
+        searchOne.findFlight(flightOne);
+    }catch(RouteNotFoundException e){
+
+        System.out.println(e + "\nAirport is not on the list of available flightpaths");
+
         }
     }
 }
