@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.stream.forum.invoice.simple.SimpleInvoiceTestSuite" tests="1" skipped="0" failures="1" errors="0" timestamp="2019-04-26T19:42:22" hostname="DESKTOP-8JPUUQQ" time="0.008">
+<testsuite name="com.kodilla.stream.forum.invoice.simple.SimpleInvoiceTestSuite" tests="1" skipped="0" failures="1" errors="0" timestamp="2019-05-01T09:22:11" hostname="DESKTOP-8JPUUQQ" time="0.005">
   <properties/>
-  <testcase name="testGetValueToPay" classname="com.kodilla.stream.forum.invoice.simple.SimpleInvoiceTestSuite" time="0.008">
+  <testcase name="testGetValueToPay" classname="com.kodilla.stream.forum.invoice.simple.SimpleInvoiceTestSuite" time="0.005">
     <failure message="java.lang.AssertionError: expected:&lt;108.975&gt; but was:&lt;108.97500000000001&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;108.975&gt; but was:&lt;108.97500000000001&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
