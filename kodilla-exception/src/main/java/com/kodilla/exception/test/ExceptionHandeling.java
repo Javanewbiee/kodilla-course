@@ -15,5 +15,14 @@ public class ExceptionHandeling {
         System.out.println(e + "\nAirport is not on the list of available flightpaths");
 
         }
+        SecondChallenge second = new SecondChallenge();
+
+        try {
+            second.probablyIWillThrowException(2.0, 1.5);
+        } catch (Exception e) {
+            System.out.println("Bug " + e);
+        } finally {
+            System.out.println("All done");
+        }
     }
 }
