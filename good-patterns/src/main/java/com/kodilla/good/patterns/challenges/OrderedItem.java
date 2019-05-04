@@ -1,15 +1,13 @@
 package com.kodilla.good.patterns.challenges;
 
-public class Order {
+public class OrderedItem {
 
     private User user;
     private Item item;
-    private String info;
 
-    public Order(User user, Item item, String info) {
+    public OrderedItem(User user, Item item) {
         this.user = user;
         this.item = item;
-        this.info = info;
     }
 
     public User getUser() {
@@ -18,9 +16,5 @@ public class Order {
 
     public Item getItem() {
         return item;
-    }
-
-    public String getInfo() {
-        return info;
     }
 }
