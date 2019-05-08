@@ -4,13 +4,13 @@ public class Application {
 
     public static void main(String[] args){
 
-        FlightSearch searchStreight = new FlightSearchFromCity();
-        searchStreight.search("Katowice");
+        FlightSearch searchFrom = new FlightSearchFromCity("Katowice");
+        searchFrom.search(searchFrom);
 
-        FlightSearch searchTo = new FlightSearchToCity();
-        searchTo.search("Warszawa");
+        FlightSearch searchTo = new FlightSearchToCity("Warszawa");
+        searchTo.search(searchTo);
 
-        FlightSearch searchThrough = new FlightSearchThroughCity();
-        searchThrough.search("Wrocław");
+        FlightSearch searchThrough = new FlightSearchThroughCity("Katowice","Wrocław","Gdańsk");
+        searchThrough.search(searchThrough);
     }
 }

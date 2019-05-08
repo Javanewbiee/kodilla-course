@@ -4,29 +4,29 @@ import java.util.HashMap;
 
 public class FlightList {
 
-    Flight straight1 = new StraightFlight("Wrocław", "Warszawa");
-    Flight straight2 = new StraightFlight("Warszawa", "Gdańsk");
-    Flight straight3 = new StraightFlight("Wrocław", "Gdańsk");
-    Flight straight4 = new StraightFlight("Katowice", "Wrocław");
-    Flight straight5 = new StraightFlight("Katowice", "Warszawa");
-    Flight through1 = new ThroughFlight("Katowice", "Wrocław", "Warszawa");
-    Flight through2 = new ThroughFlight("Katowice", "Warszawa", "Gdańsk");
-    Flight through3 = new ThroughFlight("Gdańsk", "Warszawa", "Wrocław");
-    Flight through4 = new ThroughFlight("Wrocław", "Gdańsk", "Katowice");
-    Flight through5 = new ThroughFlight("Warszawa", "Wrocław", "Gdańsk");
+    Flight flight1 = new Flight("Wrocław", "Warszawa");
+    Flight flight2 = new Flight("Warszawa", "Gdańsk");
+    Flight flight3 = new Flight("Wrocław", "Gdańsk");
+    Flight flight4 = new Flight("Katowice", "Wrocław");
+    Flight flight5 = new Flight("Katowice", "Warszawa");
+    Flight flight6 = new Flight("Katowice", "Gdańsk");
+    Flight flight7 = new Flight("Gdańsk", "Katowice");
+    Flight flight8 = new Flight("Gdańsk",  "Wrocław");
+    Flight flight9 = new Flight("Wrocław",  "Katowice");
+    Flight flight10 = new Flight("Warszawa", "Wrocław");
 
     public HashMap<Integer, Flight>flighMap(){
         HashMap<Integer, Flight>mapOfFlights = new HashMap<>();
-            mapOfFlights.put(1,straight1);
-            mapOfFlights.put(2,straight2);
-            mapOfFlights.put(3,straight3);
-            mapOfFlights.put(4,straight4);
-            mapOfFlights.put(5,straight5);
-            mapOfFlights.put(6,through1);
-            mapOfFlights.put(7,through2);
-            mapOfFlights.put(8,through3);
-            mapOfFlights.put(9,through4);
-            mapOfFlights.put(10,through5);
+            mapOfFlights.put(1,flight1);
+            mapOfFlights.put(2,flight2);
+            mapOfFlights.put(3,flight3);
+            mapOfFlights.put(4,flight4);
+            mapOfFlights.put(5,flight5);
+            mapOfFlights.put(6,flight6);
+            mapOfFlights.put(7,flight7);
+            mapOfFlights.put(8,flight8);
+            mapOfFlights.put(9,flight9);
+            mapOfFlights.put(10,flight10);
 
             return new HashMap<Integer, Flight>(mapOfFlights);
     }

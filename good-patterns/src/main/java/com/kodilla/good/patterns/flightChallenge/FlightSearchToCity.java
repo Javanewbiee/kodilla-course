@@ -7,14 +7,30 @@ import java.util.stream.Collectors;
 
 public class FlightSearchToCity implements FlightSearch {
 
+    private String endPoint;
+
+    public FlightSearchToCity(String endPoint) {
+        this.endPoint = endPoint;
+    }
+
+    public String getEndPoint() {
+        return endPoint;
+    }
+    public String getStartPoint() {
+        return "";
+    }
+    public String getThroughPoint() {
+        return "";
+    }
+
     FlightList list = new FlightList();
     List<Flight> tempFlightsFrom = new ArrayList();
 
-    public void search(String cityName){
+    public void search(FlightSearch flightSearch){
         Collection<Flight> tempMap = list.flighMap().values();
 
         tempFlightsFrom = tempMap.stream()
-                .filter(flight -> flight.getFlightTo() == cityName)
+                .filter(flight -> flight.getFlightTo() == flightSearch.getEndPoint())
                 .collect(Collectors.toList());
 
         System.out.println(tempFlightsFrom);
