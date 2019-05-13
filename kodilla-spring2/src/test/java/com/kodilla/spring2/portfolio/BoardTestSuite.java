@@ -18,5 +18,8 @@ public class BoardTestSuite {
         System.out.println(board2.getToDoList().getTasks().get(0));
         System.out.println(board.getDoneList().getTasks().get(0));
         System.out.println(board1.getInProgressList().getTasks().get(0));
+        System.out.println("List to do " + board2.getToDoList());
+        System.out.println("List in progress " + board1.getInProgressList());
+        System.out.println("Done list " + board.getDoneList());
     }
 }
