@@ -6,7 +6,7 @@ public class Application {
 
         CompleteOrderRetriever retrive = new CompleteOrderRetriever();
         CompleteOrder order = retrive.retrieve();
-        ExtraFoodShopOrderProcessor process = new ExtraFoodShopOrderProcessor();
-        process.process(order);
+        Producers producers = new ExtraFoodShop();
+        producers.process(order);
     }
 }

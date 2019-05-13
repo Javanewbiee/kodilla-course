@@ -5,7 +5,8 @@ public class EmailOrderInforamtionSender implements OrderInformationSender {
     public void inform(CompleteOrder completeOrder) {
         String prodInfo = completeOrder.getOrder().getTypeOfProduct();
         int quantInfo = completeOrder.getOrder().getProductQuantity();
+        String producerInfo = completeOrder.getOrder().getProducerName();
 
-        System.out.println("Client has ordered " + prodInfo + " in quantity of " + quantInfo);
+        System.out.println("You have ordered " + prodInfo + " in quantity of " + quantInfo + " from " + producerInfo);
     }
 }
