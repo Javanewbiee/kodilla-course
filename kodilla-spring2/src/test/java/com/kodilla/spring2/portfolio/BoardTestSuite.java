@@ -1,6 +1,8 @@
 package com.kodilla.spring2.portfolio;
 
 import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class BoardTestSuite {
 
@@ -10,16 +12,18 @@ public class BoardTestSuite {
         Task taskToDo = new Task("This has to be done!","TODO");
         Task taskInProgress = new Task("This is still in progress","INPROGRESS");
         Task taskDone = new Task("This one is finally done!","DONE");
+        ApplicationContext context = new AnnotationConfigApplicationContext("com.kodilla.spring2");
+        Board context1= context.getBean(Board.class);
         //When
-        Board board = taskDone.addTask();
-        Board board1 = taskInProgress.addTask();
-        Board board2 = taskToDo.addTask();
+        context1.addTask(taskDone);
+        context1.addTask(taskInProgress);
+        context1.addTask(taskToDo);
         //Then
-        System.out.println(board2.getToDoList().getTasks().get(0));
-        System.out.println(board.getDoneList().getTasks().get(0));
-        System.out.println(board1.getInProgressList().getTasks().get(0));
-        System.out.println("List to do " + board2.getToDoList());
-        System.out.println("List in progress " + board1.getInProgressList());
-        System.out.println("Done list " + board.getDoneList());
+        System.out.println(context1.getToDoList().getTasks().get(0));
+        System.out.println(context1.getDoneList().getTasks().get(0));
+        System.out.println(context1.getInProgressList().getTasks().get(0));
+        System.out.println("List to do " + context1.getToDoList());
+        System.out.println("List in progress " + context1.getInProgressList());
+        System.out.println("Done list " + context1.getDoneList());
     }
 }

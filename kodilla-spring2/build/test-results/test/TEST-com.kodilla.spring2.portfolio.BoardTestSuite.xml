@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.spring2.portfolio.BoardTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-05-15T14:45:34" hostname="DESKTOP-8JPUUQQ" time="0.221">
+  <properties/>
+  <testcase name="testTaskAdd" classname="com.kodilla.spring2.portfolio.BoardTestSuite" time="0.221"/>
+  <system-out><![CDATA[This has to be done!
+This one is finally done!
+This is still in progress
+List to do [This has to be done!]
+List in progress [This is still in progress]
+Done list [This one is finally done!]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

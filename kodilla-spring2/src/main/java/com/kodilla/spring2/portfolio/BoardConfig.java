@@ -10,6 +10,7 @@ public class BoardConfig {
     public TaskList taskListToDo() {
         return new TaskList();
     }
+
     @Bean
     public TaskList taskListInProgress() {
         return new TaskList();
