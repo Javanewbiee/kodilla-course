@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.patterns.LoggerTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-05-18T17:06:34" hostname="DESKTOP-8JPUUQQ" time="0.005">
+<testsuite name="com.kodilla.patterns.LoggerTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-05-18T19:34:59" hostname="DESKTOP-8JPUUQQ" time="0.006">
   <properties/>
-  <testcase name="testGetLastLog" classname="com.kodilla.patterns.LoggerTestSuite" time="0.005"/>
+  <testcase name="testGetLastLog" classname="com.kodilla.patterns.LoggerTestSuite" time="0.006"/>
   <system-out><![CDATA[Log: [first log]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

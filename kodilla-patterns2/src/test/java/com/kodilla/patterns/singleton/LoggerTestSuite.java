@@ -1,4 +1,4 @@
-package com.kodilla.patterns;
+package com.kodilla.patterns.singleton;
 
 import com.kodilla.patterns.Singleton.Logger;
 import org.junit.Assert;
@@ -9,7 +9,7 @@ public class LoggerTestSuite {
     @Test
     public void testGetLastLog() {
         //Given
-        Logger logger = new Logger();
+        Logger logger = Logger.getInstance();
         logger.log("first log");
         //When
         String result = logger.getLastLog();
