@@ -1,7 +1,5 @@
-package com.kodilla.patterns.singleton.factory;
+package com.kodilla.patterns.factory;
 
-import com.kodilla.patterns.factory.Shape;
-import com.kodilla.patterns.factory.ShapeFactory;
 import org.junit.Assert;
 import org.junit.Test;
 

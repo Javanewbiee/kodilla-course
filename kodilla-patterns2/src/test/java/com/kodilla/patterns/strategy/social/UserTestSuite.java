@@ -1,4 +1,4 @@
-package com.kodilla.patterns.singleton.strategy;
+package com.kodilla.patterns.strategy.social;
 
 import com.kodilla.patterns.strategy.social.*;
 import org.junit.Assert;
