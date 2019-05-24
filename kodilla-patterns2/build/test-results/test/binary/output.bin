@@ -1,1 +1,134 @@
-Log: [first log]
+ZBigmac{bun='Sesame', burger='2', souce='Standard', ingredients='[Onion, Becon, Cheese]'}
+ |  |  |wQ|wP|  |  |  |  |  |  |
+ |  |  |  |  |  |  |  |  |  |  |
+ |  |  |  |  |  |  |  |  |  |  |
+ |  |  |  |  |  |  |  |  |  |  |
+ |  |  |  |  |  |  |  |  |  |  |
+ |  |  |  |  |  |  |  |  |  |  |
+ |  |  |  |  |  |  |  |  |  |  |
+ |  |  |  |  |  |  |  |  |  |  |
+ |  |  |  |  |  |  |  |  |  |  |
+ |  |  |  |  |  |  |  |bP|  |  |
+
+JPizza{bottom='Thin', sauce='Spicy', ingredients=[Onion, Ham, Mushrooms]}
+Task is beeing executed
+Task is beeing executed
+Task is beeing executed
+Log: [first log]
+Board [Project number 1]
+   List [To Do Tasks]
+!      Task [To Do Task number 1]
+!      Task [To Do Task number 2]
+!      Task [To Do Task number 3]
+!      Task [To Do Task number 4]
+!      Task [To Do Task number 5]
+!      Task [To Do Task number 6]
+!      Task [To Do Task number 7]
+!      Task [To Do Task number 8]
+!      Task [To Do Task number 9]
+"      Task [To Do Task number 10]
+   List [In Progress Tasks]
+'      Task [In Progress Task number 1]
+'      Task [In Progress Task number 2]
+'      Task [In Progress Task number 3]
+'      Task [In Progress Task number 4]
+'      Task [In Progress Task number 5]
+'      Task [In Progress Task number 6]
+'      Task [In Progress Task number 7]
+'      Task [In Progress Task number 8]
+'      Task [In Progress Task number 9]
+(      Task [In Progress Task number 10]
+   List [Done Tasks]
+       Task [Done Task number 1]
+       Task [Done Task number 2]
+       Task [Done Task number 3]
+       Task [Done Task number 4]
+       Task [Done Task number 5]
+       Task [Done Task number 6]
+       Task [Done Task number 7]
+       Task [Done Task number 8]
+       Task [Done Task number 9]
+!      Task [Done Task number 10]
+
+Board [Project number 2]
+   List [To Do Tasks]
+!      Task [To Do Task number 1]
+!      Task [To Do Task number 2]
+!      Task [To Do Task number 3]
+!      Task [To Do Task number 4]
+!      Task [To Do Task number 5]
+!      Task [To Do Task number 6]
+!      Task [To Do Task number 7]
+!      Task [To Do Task number 8]
+!      Task [To Do Task number 9]
+"      Task [To Do Task number 10]
+   List [In Progress Tasks]
+'      Task [In Progress Task number 1]
+'      Task [In Progress Task number 2]
+'      Task [In Progress Task number 3]
+'      Task [In Progress Task number 4]
+'      Task [In Progress Task number 5]
+'      Task [In Progress Task number 6]
+'      Task [In Progress Task number 7]
+'      Task [In Progress Task number 8]
+'      Task [In Progress Task number 9]
+(      Task [In Progress Task number 10]
+   List [Done Tasks]
+       Task [Done Task number 1]
+       Task [Done Task number 2]
+       Task [Done Task number 3]
+       Task [Done Task number 4]
+       Task [Done Task number 5]
+       Task [Done Task number 6]
+       Task [Done Task number 7]
+       Task [Done Task number 8]
+       Task [Done Task number 9]
+!      Task [Done Task number 10]
+
+Board [Project number 3]
+   List [Done Tasks]
+       Task [Done Task number 1]
+       Task [Done Task number 2]
+       Task [Done Task number 3]
+       Task [Done Task number 4]
+       Task [Done Task number 5]
+       Task [Done Task number 6]
+       Task [Done Task number 7]
+       Task [Done Task number 8]
+       Task [Done Task number 9]
+!      Task [Done Task number 10]
+   List [To Do Tasks]
+!      Task [To Do Task number 1]
+!      Task [To Do Task number 2]
+!      Task [To Do Task number 3]
+!      Task [To Do Task number 4]
+!      Task [To Do Task number 5]
+!      Task [To Do Task number 6]
+!      Task [To Do Task number 7]
+!      Task [To Do Task number 8]
+!      Task [To Do Task number 9]
+"      Task [To Do Task number 10]
+   List [In Progress Tasks]
+'      Task [In Progress Task number 1]
+'      Task [In Progress Task number 2]
+'      Task [In Progress Task number 3]
+'      Task [In Progress Task number 4]
+'      Task [In Progress Task number 5]
+'      Task [In Progress Task number 6]
+'      Task [In Progress Task number 7]
+'      Task [In Progress Task number 8]
+'      Task [In Progress Task number 9]
+(      Task [In Progress Task number 10]
+
+ñ[Book{title='Winds of War', author='Christine Golden', publicationDate=2009-08-12}, Book{title='The Witcher', author='Anrzej Sapkowski', publicationDate=1995-02-15}, Book{title='Illidan', author='William King', publicationDate=2012-06-22}]
+ñ[Book{title='Winds of War', author='Christine Golden', publicationDate=2009-08-12}, Book{title='Illidan', author='William King', publicationDate=2012-06-22}, Book{title='The Witcher', author='Anrzej Sapkowski', publicationDate=1995-02-15}]
+?Steven should: [Conservative predictor] Buy debentures of XYZ
+<Steven now should: [Aggressive predictor] Buy stock of XYZ
+?Steven should: [Conservative predictor] Buy debentures of XYZ
+6John should: [Aggressive predictor] Buy stock of XYZ
+CKodilla should: [Balanced predictor] Buy shared units of Fund XYZ
+User is using Twitter
+User is using FaceBook
+User is using Snapchat
+User is using Twitter
+;User changed sharing media and now User is using FaceBook
