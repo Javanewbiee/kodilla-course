@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.patterns.singleton.prototype.BoardTestSuite" tests="1" skipped="0" failures="1" errors="0" timestamp="2019-05-23T09:31:33" hostname="DESKTOP-8JPUUQQ" time="0.026">
+<testsuite name="com.kodilla.patterns.singleton.prototype.BoardTestSuite" tests="1" skipped="0" failures="1" errors="0" timestamp="2019-05-28T16:07:06" hostname="DESKTOP-8JPUUQQ" time="0.058">
   <properties/>
-  <testcase name="testToString" classname="com.kodilla.patterns.singleton.prototype.BoardTestSuite" time="0.026">
+  <testcase name="testToString" classname="com.kodilla.patterns.singleton.prototype.BoardTestSuite" time="0.058">
     <failure message="java.lang.AssertionError: expected:&lt;2&gt; but was:&lt;3&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;2&gt; but was:&lt;3&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
