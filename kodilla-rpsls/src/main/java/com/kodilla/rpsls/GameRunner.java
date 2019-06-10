@@ -7,7 +7,6 @@ public class GameRunner {
     public static void main(String[] args) {
 
         boolean end = false;
-        Scanner scan = new Scanner(System.in);
 
         System.out.println("|--------------------------------|");
         System.out.println("| Welcome to Rock Paper Scissors |");
@@ -19,7 +18,7 @@ public class GameRunner {
         while (end == false) {
             Game game = new Game();
             game.startGame();
-            game.gameEnding();
+            end = game.gameEnding();
         }
     }
 }

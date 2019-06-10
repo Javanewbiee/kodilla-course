@@ -6,13 +6,13 @@ public class Game {
 
     private Player player;
     private Opponent opponent;
-    Scanner scanner = new Scanner(System.in);
     boolean end;
     boolean x = true;
     boolean n = false;
 
     public void startGame() {
         System.out.println("Type your name: ");
+        Scanner scanner = new Scanner(System.in);
         String name = scanner.nextLine();
         System.out.println("To how many wins will you play?");
         int wins = scanner.nextInt();
@@ -84,10 +84,11 @@ public class Game {
     }
     public boolean gameEnding() {
         System.out.println("Do you want to end or continue the game?");
-        String gameChoice = scanner.nextLine();
+        Scanner scan = new Scanner(System.in);
+        String gameChoice = scan.nextLine();
         if (gameChoice.equals("x") ) {
             System.out.println("Are you sure you want to end the game?");
-            String gameChoice1 = scanner.nextLine();
+            String gameChoice1 = scan.nextLine();
             if (gameChoice1.equals("x")) {
                 end = true;
             } else {

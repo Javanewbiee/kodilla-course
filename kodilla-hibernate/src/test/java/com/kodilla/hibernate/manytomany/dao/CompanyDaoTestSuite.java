@@ -28,12 +28,6 @@ public class CompanyDaoTestSuite {
         Company dataMaesters = new Company("Data Maesters");
         Company greyMatter = new Company("Grey Matter");
 
-        softwareMachine.getEmployees().add(johnSmith);
-        dataMaesters.getEmployees().add(stephanieClarckson);
-        dataMaesters.getEmployees().add(lindaKovalsky);
-        greyMatter.getEmployees().add(johnSmith);
-        greyMatter.getEmployees().add(lindaKovalsky);
-
         johnSmith.getCompanies().add(softwareMachine);
         johnSmith.getCompanies().add(greyMatter);
         stephanieClarckson.getCompanies().add(dataMaesters);
