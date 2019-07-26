@@ -1,15 +1,19 @@
 package com.kodilla.hibernate.manytomany;
 
+import org.springframework.stereotype.Component;
+
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
 import java.util.List;
-
+@NamedQuery(
+        name = "Employee.findEmployeeByString",
+        query = "FROM Employee WHERE lastname LIKE CONCAT('%',:EMPLOYEES,'%')"
+)
 @NamedQuery(
         name = "Employee.findEmployeeByLastName",
         query = "FROM Employee WHERE lastname = :LASTNAME"
 )
-
 @Entity
 @Table(name = "EMPLOYEES")
 public class Employee {
@@ -70,4 +74,5 @@ public class Employee {
     private void setLastname(String lastname) {
         this.lastname = lastname;
     }
+
 }
