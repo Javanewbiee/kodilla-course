@@ -5,7 +5,7 @@ import java.util.List;
 
 public class CoursantsTasks implements ObservableTasks {
 
-    private TaskObserver taskObserver;
+    private List<TaskObserver> taskObserver = new ArrayList<>();
     private String name;
     private List<Task>tasks = new ArrayList<>();
     private Task tempTask;
@@ -22,17 +22,19 @@ public class CoursantsTasks implements ObservableTasks {
 
     @Override
     public void addTaskObserver(TaskObserver taskObserverNew) {
-        taskObserver = taskObserverNew;
+        taskObserver.add(taskObserverNew);
     }
 
     @Override
     public void notifyTaskObserver() {
-        taskObserver.update(this,tempTask);
+        for (TaskObserver observer: taskObserver) {
+            observer.update(this,tempTask);
+        }
     }
 
     @Override
-    public void removeTaskObserver() {
-
+    public void removeTaskObserver(TaskObserver taskObserverOut) {
+        taskObserver.remove(taskObserverOut);
     }
 
     public List<Task> getTasks() {

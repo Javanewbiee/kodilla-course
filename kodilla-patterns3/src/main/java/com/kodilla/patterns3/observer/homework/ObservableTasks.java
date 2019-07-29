@@ -4,5 +4,5 @@ public interface ObservableTasks {
 
     void addTaskObserver(TaskObserver taskObserver);
     void notifyTaskObserver();
-    void removeTaskObserver();
+    void removeTaskObserver(TaskObserver taskObserver);
 }
